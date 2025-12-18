@@ -1,23 +1,11 @@
-# Read the Docs configuration file
-# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+project = 'Moja Dokumentacja'
+author = 'Michał Wierzbicki'
+release = '1.0'
 
-# Required
-version: 2
+extensions = []
 
-# Set the OS, Python version, and other tools you might need
-build:
-  os: ubuntu-24.04
-  tools:
-    python: "3.13"
+templates_path = ['_templates']
+exclude_patterns = []
 
-# Build documentation in the "docs/" directory with Sphinx
-sphinx:
-   configuration: docs/conf.py
-
-# Optionally, but recommended,
-# declare the Python requirements required to build your documentation
-# See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
-# python:
-#    install:
-#    - requirements: docs/requirements.txt
-        
+html_theme = 'alabaster'
+html_static_path = ['_static']
