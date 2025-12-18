@@ -1,6 +1,6 @@
-# conf.py
+# docs/conf.py
 project = 'Moja Dokumentacja'
-author = 'Jan Kowalski'
+author = 'Michal Wierzbicki'
 release = '1.0'
 
 extensions = []
