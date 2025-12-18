@@ -1,12 +1,10 @@
 # .readthedocs.yaml
 version: 2
 
-# Sphinx configuration
+# Konfiguracja Sphinx
 sphinx:
   configuration: docs/conf.py
 
-# Python settings
+# Ustawienia Pythona
 python:
   version: 3.11
-  install:
-    - requirements: docs/requirements.txt  # jeśli masz dodatkowe paczki, inaczej można pominąć
