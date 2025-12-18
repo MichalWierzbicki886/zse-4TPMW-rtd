@@ -1,7 +1,7 @@
 Moja Dokumentacja
 =================
 
-Witaj w przykładowej dokumentacji.
+test czy cos
 
 .. toctree::
    :maxdepth: 2
